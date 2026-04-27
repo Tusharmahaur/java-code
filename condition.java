@@ -7,16 +7,21 @@ public class condition {
         System.out.print("Enter a : ");
         int a = sc.nextInt();
         System.out.print("Enter b : ");
-        int b = sc.nextInt();
-        if(a%2 != 0){
-            for(int i = 0; i<a; i++){
-                System.out.println("Even");
-            }
-
+        boolean b = sc.nextBoolean();
+        if (b) {
+            System.out.println(b);
         }else{
-            for(int i = 0; i<a; i++){
-                System.out.println("Odd");
-            }
+            System.out.println(b);
         }
+        // if(a%2 != 0){
+        //     for(int i = 0; i<a; i++){
+        //         System.out.println("Even");
+        //     }
+
+        // }else{
+        //     for(int i = 0; i<a; i++){
+        //         System.out.println("Odd");
+        //     }
+        // }
     }   
 }

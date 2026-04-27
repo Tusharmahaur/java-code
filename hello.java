@@ -3,13 +3,7 @@ public class hello {
 
     static void main(String args[]){
         //inputing  
-        Scanner sc = new Scanner(System.in);
-        String name = sc.next();
-        String name1 = sc.nextLine();
-        int age = sc.nextInt();
-        System.out.println(age);
-        System.out.println(name);
-        System.out.println(name1);
+        System.out.println("Hello world");
     }
 }
 // class hello{
